@@ -1,6 +1,4 @@
 # COMP646: Deep Learning for Vision and Language  
-![CLIP Vision](images/CLIP_vision_flowchart.pdf)
-![CLIP Cross-Modal](images/CLIP_cross_modal_flowchart.pdf)
 ## CLIP Cross-Modal Image Pairing for the Image Matching Challenge 2025
 **Authors: Joshua Han and Alan Huang**
 
@@ -27,13 +25,15 @@ We explore **semantics-aware embedding** by leveraging **vision-language models*
 We introduce a **Text Counterpart Construction** pipeline proposed by [Li et al.](https://arxiv.org/pdf/2310.11989)
 that selects noun-based semantic labels for clusters of image embeddings, then refines the image representations using text-guided supervision.
 
+![CLIP Vision](images/CLIP_vision_flowchart.png)
+![CLIP Cross-Modal](images/CLIP_cross_modal_flowchart.png)
 ---
 
 ## 🔍 Visualizations
 
 ### UMAP Overview
 
-![UMAP](images/umap.pdf)
+![UMAP](images/umap.png)
 
 Each row represents a dataset; each column a method. Points are colored by ground-truth scene labels. The CLIP Cross-Modal embeddings show the strongest scene separation in most cases.
 
@@ -43,15 +43,15 @@ We further visualize the top matching text counterparts for various datasets:
 
 #### `imc2023_heritage`
 
-![Heritage Scene](images/clip_imc2023_heritage.pdf)
+![Heritage Scene](images/clip_imc2023_heritage.png)
 
 #### `pt_stpeters_stpauls`
 
-![St. Peter and Paul](images/clip_pt_stpeters_stpauls.pdf)
+![St. Peter and Paul](images/clip_pt_stpeters_stpauls.png)
 
 #### `stairs`
 
-![Stairs Scene](images/clip_stairs.pdf)
+![Stairs Scene](images/clip_stairs.png)
 
 
 ## How You Can Run
