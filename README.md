@@ -1,7 +1,7 @@
 # COMP646: Deep Learning for Vision and Language  
 ## CLIP Cross-Modal Image Pairing for the Image Matching Challenge 2025
 **Authors: Joshua Han and Alan Huang**
-
+> To view more detail please read our [paper](Paper_CLIP_Cross_Modal_Image_Pairing_for_3D_Scene_Understanding.pdf) and [slides](Slides_CLIP Cross-Modal Image Pairing for 3D Scene Understanding.pdf)
 This repository contains our final project for COMP646: Deep Learning for Vision and Language at Rice University. Our project is based on the [Image Matching Challenge 2025](https://www.image-matching-challenge.com/) organized by the Czech Technical University in Prague.
 
 ---
